@@ -1,0 +1,187 @@
+
+
+body {
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin:2px;
+}
+
+/* Header Styles*/
+
+.sidebar {
+    width: 300px;
+    background-color: grey;
+    height: 1300px;
+    float : left;
+    position:fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+header {
+    background-color: #333;
+    width: 25%;
+    height: 710px;
+    padding: 10px;
+    position:fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    margin:1px;
+    margin-left: 100px;
+    margin-top : 30px;
+}
+
+header h1 {
+    font-size: 23px;
+    padding-top: 5px;
+    color: white;
+    /* font-style:italic; */
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-weight: bolder;
+
+}
+
+header img {
+    border-radius: 100%;
+    margin: 5px auto;
+}
+
+/* Navigation Styles */
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+a.active {
+    color: rgb(247, 33, 33);
+    text-decoration: underline;
+    /* background-color: #11da57;
+    color: #fff;
+    font-weight: bold; */
+}
+
+
+/* Main Content Styles */
+main {
+    max-width: 900px;
+    margin-left: 38%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-right : 30px;
+}
+
+h2{
+    text-align: center;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-size: 20px;
+
+}
+.container {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 20px;
+    padding:15px;
+}
+
+/* About Me Page Styles */
+
+.underline {
+    width: 90px;
+    height: 2px;
+    background-color: #333;
+    margin-left:30px ;
+}
+
+/* animation letter */
+
+.word-animation {
+    padding-top:50px;
+    text-align: left;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.letter {
+    color:green;
+    display:inline-block;
+    opacity: 0;
+    animation: appearLetter 2s ease-in-out forwards;
+    font-size: 65px;
+    font-family: cursive;
+}
+
+@keyframes appearLetter {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Social Media Icons Styles */
+
+.social-icons {
+    background-color:green;
+    text-align: center;
+    margin: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social-icons a:hover {
+    transform: scale(1.5); /* Increase the size of the icon on hover */
+ }
+
+ /* Styling for LinkedIn icon */
+  .social-icons a[href="https://www.linkedin.com/"]:hover {
+    color: #0077B5; /* Change color on hover for LinkedIn */
+    transform: scale(1.2); /* Increase size on hover for LinkedIn */
+  }
+  
+  /* Styling for Instagram icon */
+  .social-icons a[href="https://www.instagram.com/"]:hover {
+    color: #C13584; /* Change color on hover for Instagram */
+    transform: scale(1.2); /* Increase size on hover for Instagram */
+  }
+  
+  /* Styling for Twitter icon */
+
+  .social-icons a[href="https://twitter.com/"]:hover {
+    color: #1DA1F2; /* Change color on hover for Twitter */
+    transform: scale(1.2); /* Increase size on hover for Twitter */
+  }
+/* copyright styles */
+
+.copyright {
+    color: white;
+    font-size: small;
+}
+
+/* readmore CSS */
+
+#home a{
+    color:#333;
+    font-weight: bolder;
+
+}
+
+  
